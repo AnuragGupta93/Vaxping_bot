@@ -129,6 +129,7 @@ function getVaccinationDetails(pincode, day, chatId) {
 }
 
 cron.schedule('*/1 * * * *', async () => {
+  console.log('cron running');
   try {
     const allUsers = await User.find({});
     const date = new Date();
