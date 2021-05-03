@@ -35,7 +35,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 bot.onText(/\/start/, (msg) => {
-  const text = `Welcome to the @Vaxping_bot, the vaccine reminder robot. The purpose of this bot is to notify the presence of Vaccines for the 18+ age group. Its functionalities includes:\n *It checks for any vaccine available for 18+ category in the next 4 weeks.\n *It allows you to add your desired Pincode. To add or update your Pincode, type "/add_pincode your_pincode" without quotes.\n *It allows only one Pincode for one user for better service.\n *It checks for available vaccine in every 1 hour.\n *Please report any bug if found on anuraggupta93.iitdhn@gmail.com\n *Start the app now by entering your Pincode.`;
+  const text = `<p>Welcome to the @Vaxping_bot, the vaccine reminder robot. The purpose of this bot is to notify the presence of Vaccines for the 18+ age group. Its functionalities includes:</p> <ul> <li>*It checks for any vaccine available for 18+ category in the next 4 weeks.</li> <li>It allows you to add your desired Pincode. To add or update your Pincode, type "/add_pincode your_pincode" without quotes.</li> <li>It allows only one Pincode for one user for better service.</li> <li>It checks for available vaccine in every 1 hour.</li> <li>Please report any bug if found on anuraggupta93.iitdhn@gmail.com</li> <li>Start the app now by entering your Pincode.</li> </ul>`;
   bot.sendMessage(msg.chat.id, text);
 });
 
@@ -43,10 +43,6 @@ bot.onText(/\/add_pincode (.+)/, async (msg, match) => {
   try {
     const chatId = msg.chat.id;
     const pincode = match[1];
-
-    console.log(chatId, pincode);
-    console.log(pincode.length !== 6);
-    console.log(/^\d+$/.test(pincode));
 
     if (pincode.length !== 6 || !/^\d+$/.test(pincode)) {
       const errorText = 'Error while reading pincode. Please try again.';
@@ -128,7 +124,7 @@ function getVaccinationDetails(pincode, day, chatId) {
     });
 }
 
-cron.schedule('* */30 * * * *', async () => {
+cron.schedule('* * */30 * * *', async () => {
   try {
     const allUsers = await User.find({});
     const date = new Date();
