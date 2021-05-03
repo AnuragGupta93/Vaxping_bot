@@ -113,7 +113,7 @@ function getVaccinationDetails(pincode, day, chatId) {
           dateAndTime
         )}`;
         console.log(str);
-        bot.sendMessage(chatId, str);
+        bot.sendMessage(chatId, str, { parse_mode: 'HTML' });
         return true;
       }
       return false;
