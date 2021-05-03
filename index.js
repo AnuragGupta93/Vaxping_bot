@@ -128,8 +128,7 @@ function getVaccinationDetails(pincode, day, chatId) {
     });
 }
 
-cron.schedule('*/2 * * * *', async () => {
-  console.log('cron running');
+cron.schedule('*/20 * * * * *', async () => {
   try {
     const allUsers = await User.find({});
     const date = new Date();
