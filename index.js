@@ -35,7 +35,13 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 bot.onText(/\/start/, (msg) => {
-  const text = `Welcome to the @Vaxping_bot, the vaccine reminder robot. The purpose of this bot is to notify the presence of Vaccines for the 18+ age group. Its functionalities includes:\n *It checks for any vaccine available for 18+ category in the next 4 weeks.\n *It allows you to add your desired Pincode. To add or update your Pincode, type "/add_pincode your_pincode" without quotes.\n *It allows only one Pincode for one user for better service.\n *It checks for available vaccine in every 1 hour.\n *Please report any bug if found on anuraggupta93.iitdhn@gmail.com\n *Start the app now by entering your Pincode.`;
+  const text = `Welcome to the @Vaxping_bot, the vaccine reminder robot. The purpose of this bot is to notify the presence of Vaccines for the 18+ age group. Its functionalities includes:
+\n => It checks for any vaccine available for 18+ category in the next 4 weeks.
+\n => It allows you to add your desired Pincode. To add or update your Pincode, type "/add_pincode your_pincode" without quotes.
+\n => It allows only one Pincode for one user for better service.
+\n => It checks for available vaccine in every 1 hour.
+\n => Please report any bug if found on anuraggupta93.iitdhn@gmail.com
+\n => Start the app now by entering your Pincode.`;
   bot.sendMessage(msg.chat.id, text);
 });
 
