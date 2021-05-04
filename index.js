@@ -5,7 +5,7 @@ const express = require('express');
 const axios = require('axios');
 const cron = require('node-cron');
 const mongoose = require('mongoose');
-
+// Models
 const User = require('./models/User');
 
 const app = express();
@@ -13,7 +13,7 @@ app.use(express.json());
 
 const token = process.env.TELEGRAM_TOKEN;
 const url = process.env.MONGO_URI;
-
+// Connect database
 mongoose
   .connect(url, {
     useNewUrlParser: true,
@@ -27,6 +27,7 @@ mongoose
 
 let bot;
 
+// Bot configuration
 if (process.env.NODE_ENV === 'production') {
   bot = new TelegramBot(token);
   bot.setWebHook(process.env.HEROKU_URL + bot.token);
@@ -102,7 +103,7 @@ function getVaccinationDetails(pincode, day, chatId) {
     })
     .then(({ data }) => {
       const vaccineAvailable = data.centers.find((el) => {
-        return el.sessions.some((child) => child.min_age_limit === 45);
+        return el.sessions.some((child) => child.min_age_limit === 45); // Set on 45 years for testing
       });
 
       if (vaccineAvailable) {
