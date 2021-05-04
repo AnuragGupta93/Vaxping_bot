@@ -39,10 +39,10 @@ bot.onText(/\/start/, (msg) => {
   const text = `Welcome to the @Vaxping_bot, the vaccine reminder robot. The purpose of this bot is to notify the presence of Vaccines for the 18+ age group. Its functionalities includes:
 \n => It checks for any vaccine slots available for 18+ age group in the next 4 weeks.
 \n => It allows you to add your desired Pincode. 
-\n => To add or update your Pincode, type "/add_pincode your_pincode" without quotes.
+\n => To add or update your Pincode, type "/add_pincode your_pincode" without quotes. Ex: /add_pincode 827001
 \n => It allows only one Pincode for one user for better service.
-\n => It checks for available vaccine in every 15.
-\n => Your privacy is safe with us. We only store your pincode and chatId.
+\n => It checks for available vaccine slots in every 15 minutes.
+\n => It only store your pincode and chatId.
 \n => You are welcome to contribute to this project at https://github.com/AnuragGupta93/Vaxping_bot.
 \n => Start the app now by entering your Pincode.`;
   bot.sendMessage(msg.chat.id, text);
@@ -54,7 +54,8 @@ bot.onText(/\/add_pincode (.+)/, async (msg, match) => {
     const pincode = match[1];
 
     if (pincode.length !== 6 || !/^\d+$/.test(pincode)) {
-      const errorText = 'Error while reading pincode. Please try again.';
+      const errorText =
+        'Error while reading pincode. Please make sure pincode is correct and try again.';
       bot.sendMessage(chatId, errorText);
       return;
     }
@@ -105,8 +106,12 @@ function getVaccinationDetails(pincode, day, chatId) {
     })
     .then(({ data }) => {
       const vaccineAvailable = data.centers.find((el) => {
-        return el.sessions.some((child) => child.min_age_limit === 45); // Set on 45 years for testing
+        return el.sessions.some(
+          (child) => child.min_age_limit === 18 && child.available_capacity > 0
+        ); // Set on 18 years for testing
       });
+
+      console.log('vaccineAvailable', vaccineAvailable);
 
       if (vaccineAvailable) {
         const {
@@ -116,7 +121,7 @@ function getVaccinationDetails(pincode, day, chatId) {
           state_name,
         } = vaccineAvailable;
         const dateAndTime = vaccineAvailable.sessions.find(
-          (el) => el.min_age_limit === 45
+          (el) => el.min_age_limit === 18 && el.available_capacity > 0
         );
         const str = `Vaccine is available for you at ${name}, ${block_name}, ${district_name}, ${state_name}-${pincode}.Please check the details below for more information.\n\n${JSON.stringify(
           dateAndTime
