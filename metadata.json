@@ -1,0 +1,1318 @@
+{
+  "centers": [
+      {
+          "center_id": 624539,
+          "name": "PVT VRITTI",
+          "address": "PVT VRITTI",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 23,
+          "long": 86,
+          "from": "09:00:00",
+          "to": "18:00:00",
+          "fee_type": "Paid",
+          "sessions": [
+              {
+                  "session_id": "d99b7d72-2cdd-4269-8906-cf4d6851557b",
+                  "date": "14-05-2021",
+                  "available_capacity": 99,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              }
+          ]
+      },
+      {
+          "center_id": 623920,
+          "name": "HSC NAWADIH HSC KURRA",
+          "address": "HSC NAWADIH CHAS",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 23,
+          "long": 86,
+          "from": "09:00:00",
+          "to": "18:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "ba50affe-3f48-493c-8088-aa3b2698a59a",
+                  "date": "14-05-2021",
+                  "available_capacity": 50,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              }
+          ]
+      },
+      {
+          "center_id": 619677,
+          "name": "HSC MANGO CHAS",
+          "address": "HSC MANGO CHAS",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 23,
+          "long": 86,
+          "from": "09:00:00",
+          "to": "18:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "9b6ef517-5eac-4db9-bc15-d1f0aa9ab943",
+                  "date": "14-05-2021",
+                  "available_capacity": 50,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              },
+              {
+                  "session_id": "81dea0c9-2c26-4dff-94f8-e1016eadad1a",
+                  "date": "17-05-2021",
+                  "available_capacity": 25,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 25
+              }
+          ]
+      },
+      {
+          "center_id": 623515,
+          "name": "HSC KURRA CHAS",
+          "address": "HSC KURRA CHAS",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 23,
+          "long": 86,
+          "from": "09:00:00",
+          "to": "18:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "45b05a8b-64cd-40a9-8400-476a1da7bfb8",
+                  "date": "14-05-2021",
+                  "available_capacity": 48,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              }
+          ]
+      },
+      {
+          "center_id": 619693,
+          "name": "HSC RADHANAGAR CHAS",
+          "address": "HSC RADHANAGAR CHAS",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 23,
+          "long": 86,
+          "from": "09:00:00",
+          "to": "18:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "a47145a0-bdb5-472b-8c51-34a69a7b26ef",
+                  "date": "14-05-2021",
+                  "available_capacity": 49,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              }
+          ]
+      },
+      {
+          "center_id": 623940,
+          "name": "HSC KUSMA CHAS",
+          "address": "HSC KUSMA CHAS",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 23,
+          "long": 86,
+          "from": "09:00:00",
+          "to": "18:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "2ca4b0dd-8421-4284-aa87-726ead274943",
+                  "date": "14-05-2021",
+                  "available_capacity": 49,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              }
+          ]
+      },
+      {
+          "center_id": 604886,
+          "name": "CHC CHAS 2.0",
+          "address": "CHC CHAS",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 23,
+          "long": 86,
+          "from": "09:00:00",
+          "to": "18:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "86e7d055-0940-400f-a176-ed9c689cda08",
+                  "date": "15-05-2021",
+                  "available_capacity": 0,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": -2
+              },
+              {
+                  "session_id": "3f52da19-bfbf-40f4-bceb-e1114d97ea85",
+                  "date": "16-05-2021",
+                  "available_capacity": 0,
+                  "min_age_limit": 18,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              }
+          ]
+      },
+      {
+          "center_id": 627173,
+          "name": "UPHC Siwandih NUHM",
+          "address": "UPHC Siwandih",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 23,
+          "long": 86,
+          "from": "09:00:00",
+          "to": "18:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "f7008f37-0969-4aff-bc96-ae0ab701cc08",
+                  "date": "15-05-2021",
+                  "available_capacity": 0,
+                  "min_age_limit": 18,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              },
+              {
+                  "session_id": "785eb9e9-36e1-46ff-bc46-b3733792016b",
+                  "date": "16-05-2021",
+                  "available_capacity": 0,
+                  "min_age_limit": 18,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              }
+          ]
+      },
+      {
+          "center_id": 635658,
+          "name": "PAN MADHUNIA 1",
+          "address": "PAN MADHUNIA CHAS",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 86,
+          "long": 23,
+          "from": "09:00:00",
+          "to": "18:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "b9e5ee33-8c52-4983-8023-18bb3a34c053",
+                  "date": "15-05-2021",
+                  "available_capacity": 48,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 23,
+                  "available_capacity_dose2": 25
+              }
+          ]
+      },
+      {
+          "center_id": 680571,
+          "name": "NUHM ATAL CLINIC WARD 17",
+          "address": "ATAL CLINIC WARD -17 CHAS",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 23,
+          "long": 85,
+          "from": "09:00:00",
+          "to": "18:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "209bec16-9bd5-4ad2-a0fa-b5115e224854",
+                  "date": "15-05-2021",
+                  "available_capacity": 0,
+                  "min_age_limit": 18,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              },
+              {
+                  "session_id": "ca2c3f54-bd41-4cc7-808a-53645b67ebf7",
+                  "date": "16-05-2021",
+                  "available_capacity": 0,
+                  "min_age_limit": 18,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              }
+          ]
+      },
+      {
+          "center_id": 634982,
+          "name": "NUHM STATE DISPENSARY CHAS",
+          "address": "STATE DISPENSARY BALIDIH",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 23,
+          "long": 86,
+          "from": "09:00:00",
+          "to": "17:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "b151d325-9159-44db-8a49-c0654acfd40e",
+                  "date": "16-05-2021",
+                  "available_capacity": 0,
+                  "min_age_limit": 18,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-05:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              }
+          ]
+      },
+      {
+          "center_id": 563740,
+          "name": "ANM TC CITY COLLEGE 1",
+          "address": "CITY COLLEGE BOKARO",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 23,
+          "long": 85,
+          "from": "09:00:00",
+          "to": "17:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "6e2a87aa-4229-46f6-ac56-0dcf1d5ddb28",
+                  "date": "16-05-2021",
+                  "available_capacity": 0,
+                  "min_age_limit": 18,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-05:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              }
+          ]
+      },
+      {
+          "center_id": 613902,
+          "name": "ANM TC ROOM 3",
+          "address": "ANM TC",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 23,
+          "long": 86,
+          "from": "09:00:00",
+          "to": "17:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "93c3d01f-50c3-4e6d-8fbc-e3043ac9bd98",
+                  "date": "16-05-2021",
+                  "available_capacity": 0,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-05:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              }
+          ]
+      },
+      {
+          "center_id": 562436,
+          "name": "ANM TC CITY COLLEGE",
+          "address": "CITY COLLEGE BOKARO",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 25,
+          "long": 86,
+          "from": "09:00:00",
+          "to": "17:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "3efc27cf-d51c-4337-9d70-2886eeb524eb",
+                  "date": "16-05-2021",
+                  "available_capacity": 0,
+                  "min_age_limit": 18,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-05:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              }
+          ]
+      },
+      {
+          "center_id": 580306,
+          "name": "ANM TC CITY COLLEGE 2",
+          "address": "CITY COLLEGE BOKARO",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 23,
+          "long": 86,
+          "from": "09:00:00",
+          "to": "17:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "f3706267-eb49-4f9a-a73e-79532618597a",
+                  "date": "16-05-2021",
+                  "available_capacity": 0,
+                  "min_age_limit": 18,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-05:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              }
+          ]
+      },
+      {
+          "center_id": 589207,
+          "name": "ANM TC CITY COLLEGE 3",
+          "address": "CITY COLLEGE BOKARO",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 23,
+          "long": 85,
+          "from": "09:00:00",
+          "to": "17:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "f54c6208-56c1-4a9c-82aa-8d906c83a612",
+                  "date": "16-05-2021",
+                  "available_capacity": 0,
+                  "min_age_limit": 18,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-05:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              }
+          ]
+      },
+      {
+          "center_id": 635704,
+          "name": "PAN KUMHRI 1 CHAS",
+          "address": "PAN KUMHRI 1",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 86,
+          "long": 23,
+          "from": "09:00:00",
+          "to": "18:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "f1fb06db-f66e-44e7-bf8a-b2356881575a",
+                  "date": "16-05-2021",
+                  "available_capacity": 41,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 16,
+                  "available_capacity_dose2": 25
+              }
+          ]
+      },
+      {
+          "center_id": 624135,
+          "name": "SDH CHAS",
+          "address": "SDH CHAS ITI MORE",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 23,
+          "long": 86,
+          "from": "09:00:00",
+          "to": "18:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "51372bd3-936f-4367-b823-524df9c99696",
+                  "date": "16-05-2021",
+                  "available_capacity": 0,
+                  "min_age_limit": 18,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              },
+              {
+                  "session_id": "e1fc5ef8-1350-4d2e-b9de-2be9a01ba335",
+                  "date": "16-05-2021",
+                  "available_capacity": 0,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-05:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              }
+          ]
+      },
+      {
+          "center_id": 603554,
+          "name": "ANM TC ROOM 4",
+          "address": "ANM TC",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 23,
+          "long": 86,
+          "from": "09:00:00",
+          "to": "17:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "15d1e84e-03cc-4351-8c7f-0c1e9fe67455",
+                  "date": "16-05-2021",
+                  "available_capacity": 0,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-05:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              }
+          ]
+      },
+      {
+          "center_id": 635027,
+          "name": "PAN PUPUNKI CHAS",
+          "address": "PAN PUPUNKI CHAS",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 86,
+          "long": 23,
+          "from": "09:00:00",
+          "to": "18:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "c61f15d3-c6bb-4d0c-818f-72dc90f3727a",
+                  "date": "16-05-2021",
+                  "available_capacity": 17,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 17
+              }
+          ]
+      },
+      {
+          "center_id": 595385,
+          "name": "ANM TC CITY COLLEGE 5",
+          "address": "CITY COLLEGE BOKARO",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 23,
+          "long": 85,
+          "from": "09:00:00",
+          "to": "17:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "2468f0ed-e2a3-4b5b-ae50-bf945cce1ce2",
+                  "date": "16-05-2021",
+                  "available_capacity": 1,
+                  "min_age_limit": 18,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-05:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 1
+              }
+          ]
+      },
+      {
+          "center_id": 590201,
+          "name": "ANM TC CITY COLLEGE 4",
+          "address": "CITY COLLEGE BOKARO",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 25,
+          "long": 85,
+          "from": "09:00:00",
+          "to": "17:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "7425620b-9ba5-4986-931a-c6b286587fc0",
+                  "date": "16-05-2021",
+                  "available_capacity": 0,
+                  "min_age_limit": 18,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-05:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              }
+          ]
+      },
+      {
+          "center_id": 603527,
+          "name": "ANM TC ROOM 2",
+          "address": "ANM TC",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 23,
+          "long": 86,
+          "from": "09:00:00",
+          "to": "17:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "830c14aa-3dad-456b-bd48-8d94e99aa566",
+                  "date": "16-05-2021",
+                  "available_capacity": 0,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-05:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              }
+          ]
+      },
+      {
+          "center_id": 625316,
+          "name": "PHC CHIRACHAS CHAS",
+          "address": "CHIRA CHAS",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 23,
+          "long": 86,
+          "from": "09:30:00",
+          "to": "17:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "fb540b8c-5ca2-4f39-903a-4920e60ae8e7",
+                  "date": "16-05-2021",
+                  "available_capacity": 1,
+                  "min_age_limit": 18,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:30AM-10:30AM",
+                      "10:30AM-11:30AM",
+                      "11:30AM-12:30PM",
+                      "12:30PM-05:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 1
+              }
+          ]
+      },
+      {
+          "center_id": 635669,
+          "name": "PAN CHANDAHA 1",
+          "address": "PAN CHANDAHA 1",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 86,
+          "long": 23,
+          "from": "09:00:00",
+          "to": "18:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "07a4b21d-496d-4033-a8c2-4d5278b335e9",
+                  "date": "16-05-2021",
+                  "available_capacity": 45,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 20,
+                  "available_capacity_dose2": 25
+              }
+          ]
+      },
+      {
+          "center_id": 635643,
+          "name": "PAN BIJULIA CHAS NEW",
+          "address": "PAN BIJULIA 1 CHAS",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 86,
+          "long": 23,
+          "from": "09:00:00",
+          "to": "18:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "c085d540-2875-478f-81bc-69c77d6ca419",
+                  "date": "16-05-2021",
+                  "available_capacity": 38,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 13,
+                  "available_capacity_dose2": 25
+              }
+          ]
+      },
+      {
+          "center_id": 629781,
+          "name": "UPHC Telidih NUHM",
+          "address": "UPHC Telidih",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 23,
+          "long": 86,
+          "from": "09:00:00",
+          "to": "18:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "7d6b73f3-871a-4387-a204-eb72db5017d9",
+                  "date": "16-05-2021",
+                  "available_capacity": 0,
+                  "min_age_limit": 18,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              }
+          ]
+      },
+      {
+          "center_id": 688296,
+          "name": "ANM TC BOKARO CLUB CAMP 2",
+          "address": "ANM TC",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 23,
+          "long": 86,
+          "from": "09:00:00",
+          "to": "18:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "e9049532-479e-4f91-aab3-1b62ccc1e0d8",
+                  "date": "16-05-2021",
+                  "available_capacity": 1,
+                  "min_age_limit": 18,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 1
+              }
+          ]
+      },
+      {
+          "center_id": 603450,
+          "name": "ANM TC ROOM 1",
+          "address": "ANM TC",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 23,
+          "long": 86,
+          "from": "09:00:00",
+          "to": "17:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "b5c8abec-ff90-48ad-8810-ae4d1af4432f",
+                  "date": "16-05-2021",
+                  "available_capacity": 0,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-05:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              }
+          ]
+      },
+      {
+          "center_id": 635509,
+          "name": "UPHC KAILASH NAGAR NUHM",
+          "address": "UPHC KAILASH NAGAR CHAS",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 23,
+          "long": 86,
+          "from": "09:00:00",
+          "to": "18:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "28af0031-6290-4841-8186-2e20fc65b29a",
+                  "date": "16-05-2021",
+                  "available_capacity": 0,
+                  "min_age_limit": 18,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              }
+          ]
+      },
+      {
+          "center_id": 635012,
+          "name": "PAN KANDRA 1 CHAS",
+          "address": "PAN KANDRA CHAS",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 0,
+          "long": 0,
+          "from": "09:00:00",
+          "to": "18:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "a2f069b2-6c2b-486c-ab18-71750d5be749",
+                  "date": "16-05-2021",
+                  "available_capacity": 25,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 25
+              },
+              {
+                  "session_id": "d67c1a9c-d1ca-499f-8e2a-eeda766b667c",
+                  "date": "18-05-2021",
+                  "available_capacity": 27,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 2,
+                  "available_capacity_dose2": 25
+              }
+          ]
+      },
+      {
+          "center_id": 635170,
+          "name": "PAN KASHIJHARIA",
+          "address": "PAN KASHIJHARIA CHAS",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 86,
+          "long": 23,
+          "from": "09:00:00",
+          "to": "18:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "9b1bc7f4-278b-479b-9c23-9e68ad8f646c",
+                  "date": "18-05-2021",
+                  "available_capacity": 47,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 22,
+                  "available_capacity_dose2": 25
+              },
+              {
+                  "session_id": "6dc85f1b-98e8-422e-afea-b9bad52172a9",
+                  "date": "19-05-2021",
+                  "available_capacity": 50,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 25,
+                  "available_capacity_dose2": 25
+              }
+          ]
+      },
+      {
+          "center_id": 635448,
+          "name": "PAN SARDAHA",
+          "address": "PAN SARDAHA CHAS",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 86,
+          "long": 23,
+          "from": "09:00:00",
+          "to": "18:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "de33f277-9ed9-46f6-adfe-a5ef072a07cb",
+                  "date": "18-05-2021",
+                  "available_capacity": 47,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 22,
+                  "available_capacity_dose2": 25
+              }
+          ]
+      },
+      {
+          "center_id": 634932,
+          "name": "PAN CHAINPUR",
+          "address": "PAN CHAINPUR CHAS",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 86,
+          "long": 23,
+          "from": "09:00:00",
+          "to": "18:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "d5f03467-e922-4f0c-b423-ba8843a83390",
+                  "date": "19-05-2021",
+                  "available_capacity": 49,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 24,
+                  "available_capacity_dose2": 25
+              }
+          ]
+      },
+      {
+          "center_id": 650599,
+          "name": "PAN KUMARDAGA",
+          "address": "PAN KUMARDAGA CHAS",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 25,
+          "long": 85,
+          "from": "09:00:00",
+          "to": "18:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "27d486b8-a3b3-4f92-86a4-1b118977b56c",
+                  "date": "19-05-2021",
+                  "available_capacity": 50,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              }
+          ]
+      },
+      {
+          "center_id": 635314,
+          "name": "PAN TURIDIH",
+          "address": "PAN TURIDIH CHAS",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 86,
+          "long": 23,
+          "from": "09:00:00",
+          "to": "18:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "b8bc5edc-c076-4624-af3e-2ae389685dcd",
+                  "date": "19-05-2021",
+                  "available_capacity": 50,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              }
+          ]
+      },
+      {
+          "center_id": 635388,
+          "name": "PAN PINDRAJORA",
+          "address": "PAN PINDRAJORA CHAS",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 86,
+          "long": 23,
+          "from": "09:00:00",
+          "to": "18:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "71049fd3-95ea-492c-b5c3-3a280c8b9d2a",
+                  "date": "19-05-2021",
+                  "available_capacity": 44,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 19,
+                  "available_capacity_dose2": 25
+              }
+          ]
+      },
+      {
+          "center_id": 635176,
+          "name": "PAN TUPRA",
+          "address": "PAN TUPRA CHAS",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 86,
+          "long": 23,
+          "from": "09:00:00",
+          "to": "18:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "0ca3591d-c89d-4742-a6f0-1fcf76e0f153",
+                  "date": "19-05-2021",
+                  "available_capacity": 49,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              }
+          ]
+      },
+      {
+          "center_id": 641235,
+          "name": "PAN KURRA CHAS",
+          "address": "PAN KURRA CHAS",
+          "state_name": "Jharkhand",
+          "district_name": "Bokaro",
+          "block_name": "Chas",
+          "pincode": 827013,
+          "lat": 23,
+          "long": 86,
+          "from": "09:00:00",
+          "to": "18:00:00",
+          "fee_type": "Free",
+          "sessions": [
+              {
+                  "session_id": "11768339-48f5-4518-91e3-8f0efad806ff",
+                  "date": "19-05-2021",
+                  "available_capacity": 47,
+                  "min_age_limit": 45,
+                  "vaccine": "COVISHIELD",
+                  "slots": [
+                      "09:00AM-11:00AM",
+                      "11:00AM-01:00PM",
+                      "01:00PM-03:00PM",
+                      "03:00PM-06:00PM"
+                  ],
+                  "available_capacity_dose1": 0,
+                  "available_capacity_dose2": 0
+              }
+          ]
+      }
+  ]
+}

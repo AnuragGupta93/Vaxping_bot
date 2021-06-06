@@ -4,12 +4,14 @@ const TelegramBot = require('node-telegram-bot-api');
 const express = require('express');
 const axios = require('axios');
 const cron = require('node-cron');
+const cors = require('cors');
 const mongoose = require('mongoose');
 // Models
 const User = require('./models/User');
 
 const app = express();
 app.use(express.json());
+app.use(cors);
 
 const token = process.env.TELEGRAM_TOKEN;
 const url = process.env.MONGO_URI;
@@ -35,27 +37,28 @@ if (process.env.NODE_ENV === 'production') {
   bot = new TelegramBot(token, { polling: true });
 }
 
+// start msg
 bot.onText(/\/start/, (msg) => {
   const text = `Welcome to the @Vaxping_bot, the vaccine reminder robot. The purpose of this bot is to notify the presence of Vaccines for the 18+ age group. Its functionalities includes:
-\n => It checks for any vaccine slots available for 18+ age group in the next 4 weeks.
+\n => New user registration has been closed as number of users exceeded the limit. Please contact developer if needed.
+\n => It checks for any vaccine slots available for 18+ age group in the next 3 weeks.
 \n => It allows you to add your desired Pincode. 
 \n => To add or update your Pincode, type "/add_pincode your_pincode" without quotes. Ex: /add_pincode 827001
 \n => It allows only one Pincode for one user for better service.
-\n => It checks for available vaccine slots in every 15 minutes.
+\n => It checks for available vaccine slots in every minute.
 \n => It only store your pincode and chatId.
-\n => You are welcome to contribute to this project at https://github.com/AnuragGupta93/Vaxping_bot.
 \n => Start the app now by entering your Pincode.`;
   bot.sendMessage(msg.chat.id, text);
 });
 
+// add pincode
 bot.onText(/\/add_pincode (.+)/, async (msg, match) => {
   try {
     const chatId = msg.chat.id;
     const pincode = match[1];
 
     if (pincode.length !== 6 || !/^\d+$/.test(pincode)) {
-      const errorText =
-        'Error while reading pincode. Please make sure pincode is correct and try again.';
+      const errorText = 'Error while reading pincode. Please make sure pincode is correct and try again.';
       bot.sendMessage(chatId, errorText);
       return;
     }
@@ -66,17 +69,38 @@ bot.onText(/\/add_pincode (.+)/, async (msg, match) => {
     };
 
     User.findOneAndUpdate({ chatId }, data, { upsert: true })
-      .then(({ newData }) => {
+      .then((newData) => {
         const saveText = `Updated Pincode-${pincode}`;
         bot.sendMessage(chatId, saveText);
       })
       .catch((err) => {
-        const errorText =
-          'Error occured while saving pincode. Please try later.';
+        console.log(err);
+        const errorText = 'Error occured while saving pincode. Please try later.';
         bot.sendMessage(chatId, errorText);
       });
   } catch (err) {
     const errorText = 'Error occured while saving pincode. Please try later.';
+    bot.sendMessage(chatId, errorText);
+  }
+});
+
+// remove account
+bot.onText(/\/remove_account/, async (msg, match) => {
+  try {
+    const chatId = msg.chat.id;
+
+    User.findOneAndDelete({ chatId })
+      .then((newdata) => {
+        const saveText = `Account successfully removed`;
+        bot.sendMessage(chatId, saveText);
+      })
+      .catch((err) => {
+        console.log(err);
+        const errorText = 'Error occured. Please try later.';
+        bot.sendMessage(chatId, errorText);
+      });
+  } catch (err) {
+    const errorText = 'Error occured. Please try later.';
     bot.sendMessage(chatId, errorText);
   }
 });
@@ -102,60 +126,71 @@ function getVaccinationDetails(pincode, day, chatId) {
       headers: {
         accept: 'application/json',
         'Accept-Language': 'en_US',
+        'User-Agent':
+          'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36',
       },
     })
     .then(({ data }) => {
       const vaccineAvailable = data.centers.find((el) => {
-        return el.sessions.some(
-          (child) => child.min_age_limit === 18 && child.available_capacity > 0
-        ); // Set on 18 years for testing
+        if (pincode == 827013) {
+          return el.sessions.some(
+            (child) => child.min_age_limit === 45 && child.vaccine == 'COVAXIN' && child.available_capacity_dose2 > 0
+          ); // Set on 18 years for testing
+        }
+        return el.sessions.some((child) => child.min_age_limit === 18 && child.available_capacity > 0); // Set on 18 years for testing
       });
 
       console.log('vaccineAvailable', vaccineAvailable);
 
       if (vaccineAvailable) {
-        const {
-          name,
-          block_name,
-          district_name,
-          state_name,
-        } = vaccineAvailable;
+        const { name, block_name, district_name, state_name } = vaccineAvailable;
         const dateAndTime = vaccineAvailable.sessions.find(
-          (el) => el.min_age_limit === 18 && el.available_capacity > 0
+          (el) => el.min_age_limit === 18 && el.available_capacity_dose2 > 0
         );
         const str = `Vaccine is available for you at ${name}, ${block_name}, ${district_name}, ${state_name}-${pincode}.Please check the details below for more information.\n\n${JSON.stringify(
           dateAndTime
         )}`;
         console.log(str);
-        bot.sendMessage(chatId, str);
+        bot
+          .sendMessage(chatId, str)
+          .then(() => console.log(chatId))
+          .catch((err) => console.log('error', chatId));
         return true;
       }
       return false;
     })
     .catch((err) => {
-      console.log(err);
+      console.log(err, chatId);
       return false;
     });
 }
 
-cron.schedule('*/15 * * * *', async () => {
+// Custom Msg
+
+// cron.schedule('*/24 * * * *', async () => {
+//   try {
+//     const allUsers = await User.find({});
+//     const str = `If you are seeing this msg, you will still get the notification for available vaccines. Use command /remove_account to deregister.`;
+//     allUsers.forEach(({ chatId }) => {
+//       console.log(chatId);
+//       bot.sendMessage(chatId, str);
+//     });
+//   } catch (err) {
+//     console.log(err);
+//   }
+// });
+
+cron.schedule('*/30 * * * * *', async () => {
   try {
     const allUsers = await User.find({});
     const date = new Date();
+    console.log(date.toLocaleString());
     date.setMinutes(date.getMinutes() + 330); // to UTC
     const firstWeekFormat = dateFormat(date);
-    const secondWeekFormat = dateFormat(date);
-    const thirdWeekFormat = dateFormat(date);
-    const forthWeekFormat = dateFormat(date);
     for (const user of allUsers) {
       const { chatId, pincode } = user;
 
-      const days = [
-        firstWeekFormat,
-        secondWeekFormat,
-        thirdWeekFormat,
-        forthWeekFormat,
-      ];
+      const days = [firstWeekFormat];
 
       for (const day of days) {
         const found = await getVaccinationDetails(pincode, day, chatId);
@@ -170,6 +205,6 @@ cron.schedule('*/15 * * * *', async () => {
   }
 });
 
-app.listen(process.env.PORT, () => {
+app.listen(8080, () => {
   console.log('working on server');
 });
